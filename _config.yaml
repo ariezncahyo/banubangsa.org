@@ -1,5 +1,6 @@
 timezone: Asia/Jakarta
 encoding: utf-8
+exclude: [vendor]
 defaults:
   -
     scope:
