@@ -1,6 +1,8 @@
 timezone: Asia/Jakarta
 encoding: utf-8
 exclude: [vendor]
+gems:
+  - jekyll-sitemap
 defaults:
   -
     scope:
