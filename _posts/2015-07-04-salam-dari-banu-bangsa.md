@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Baksos tim Jawa Timur
 post_image: /img/about-us.jpg
 ---

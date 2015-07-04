@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Kopdar Yogyakarta
 post_image: /img/kopdar-jogja.jpg
 ---
