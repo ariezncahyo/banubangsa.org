@@ -84,18 +84,22 @@
 
         </div>
 
-        <div class="row">
-          <div class="col-lg-8">
-                <ul class="pager">
-                    <li class="previous">
-                      <a href="{{ paginator.previous_page_path }}">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                      <a href="{{paginator.next_page_path}}">Newer &rarr;</a>
-                    </li>
-                </ul>
-          </div>
-        </div>
+        <!--<div class="row">-->
+          <!--<div class="col-lg-8">-->
+                <!--<ul class="pager">-->
+                    <!--{% if page.previous %}-->
+                    <!--<li class="previous">-->
+                      <!--<a href="{{ page.previous.url }}">&larr; Older</a>-->
+                    <!--</li>-->
+                    <!--{% endif %}-->
+                    <!--{% if page.next %}-->
+                    <!--<li class="next">-->
+                      <!--<a href="{{ page.next.url}}">Newer &rarr;</a>-->
+                    <!--</li>-->
+                    <!--{% endif %}-->
+                <!--</ul>-->
+          <!--</div>-->
+        <!--</div>-->
         <!-- /.row -->
     {% include footer.html %}
   </div>
