@@ -16,7 +16,7 @@
             <!-- Blog Entries Column -->
             <div class="col-md-8">
 
-                {% for post in site.categories.blog  %}
+                {% for post in site.categories.blog limit:5  %}
 
                 <!-- First Blog Post -->
                 <h2>
@@ -37,15 +37,6 @@
                 <hr>
                 {% endfor %}
 
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
 
             </div>
 
@@ -54,8 +45,16 @@
 
                 <!-- Side Widget Well -->
                 <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                    <h4>Shortcut</h4>
+
+                    <ul>
+                      {% for post in site.categories.blog %}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+
                 </div>
 
             </div>
