@@ -27,7 +27,12 @@ footer img {
   max-height: 80px;
 }
 
-.img-solusi img, .img-ramea img {
-  max-height: 290px;
+.img-solusi img, .img-ramea img, .homepage-images img {
+  max-height: 200px;
   margin: 0 auto;
+}
+
+
+.homepage-images div {
+  margin-top: 15px;
 }
