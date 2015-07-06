@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: Regional jawa timur ikut membantu penyajian takjil gratis
-post_image: /img/about-us.jpg
+post_image: /img/pembagian-takjil.jpg
 ---
 
 
